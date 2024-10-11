@@ -66,6 +66,9 @@ r2 = r2_score(y_test, y_pred)
 print(f'Mean Squared Error: {mse}')
 print(f'R-squared: {r2}') #R-squared show how well the model explains the variance  in the data
 
+newDF = pd.DataFrame({'Actual' : y_test,'Predicted': y_pred})
+newDF.to_csv('ActualvsPredicted.csv')
+
 #Visualizing predictions: We can plot the predicted values against the actual values to see how well our model is performing.
 
 #Visualize the predicted vs actual prices
