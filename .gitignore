@@ -1,2 +1,5 @@
+/practices/Deep-Learning/model/aug_data/**/*.jpg
+/practices/Deep-Learning/model/aug_data/**/*.json
+
 *.pyc
 cfar10_resnet.h5
