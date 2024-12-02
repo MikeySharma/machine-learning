@@ -1,6 +1,7 @@
 /practices/Deep-Learning/model/aug_data/**/*.jpg
 /practices/Deep-Learning/model/aug_data/**/*.json
 /practices/Deep-Learning/logs/**/*.*
+/projects/folk-art-classification/**/*.jpg
 
 *.pyc
 cfar10_resnet.h5
